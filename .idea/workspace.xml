@@ -1,86 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="73b5d68e-4f1b-4c6f-b638-a36b0988a11c" name="默认的" comment="">
-      <change afterPath="$PROJECT_DIR$/application/admin/controller/Index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/admin/view/1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/默认的.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/index/controller/Index.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/index/controller/Index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/index/view/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/index/view/admin-add.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/index/view/admin-cate.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/index/view/admin-edit.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/index/view/admin-list.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/index/view/admin-role.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/index/view/admin-rule.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/index/view/cate.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/index/view/city.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/index/view/demo.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/index/view/echarts1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/index/view/echarts2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/index/view/echarts3.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/index/view/echarts4.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/index/view/echarts5.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/index/view/echarts6.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/index/view/echarts7.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/index/view/echarts8.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/index/view/error.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/index/view/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/index/view/index/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/index/view/index/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/index/view/log.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/index/view/login.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/index/view/member-add.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/index/view/member-del.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/index/view/member-edit.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/index/view/member-list.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/index/view/member-list1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/index/view/member-password.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/index/view/order-add.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/index/view/order-list.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/index/view/order-list1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/index/view/role-add.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/index/view/unicode.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/index/view/user.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/index/view/welcome.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/index/view/welcome1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/admin-add.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/admin-cate.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/admin-edit.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/admin-list.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/admin-role.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/admin-rule.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/cate.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/city.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/demo.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/echarts1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/echarts2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/echarts3.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/echarts4.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/echarts5.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/echarts6.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/echarts7.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/echarts8.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/error.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/log.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/login.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/member-add.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/member-del.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/member-edit.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/member-list.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/member-list1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/member-password.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/order-add.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/order-list.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/order-list1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/role-add.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/unicode.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/welcome.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/welcome1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/route/route.php" beforeDir="false" afterPath="$PROJECT_DIR$/route/route.php" afterDir="false" />
-    </list>
+    <list default="true" id="73b5d68e-4f1b-4c6f-b638-a36b0988a11c" name="默认的" comment="杨飞--提取码完成" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,7 +81,7 @@
       <workItem from="1568164469458" duration="4346000" />
       <workItem from="1568173358416" duration="65000" />
       <workItem from="1568173433116" duration="56378000" />
-      <workItem from="1568549421659" duration="538000" />
+      <workItem from="1568549421659" duration="717000" />
     </task>
     <task id="LOCAL-00001" summary="默认的">
       <created>1568515380074</created>
@@ -176,7 +97,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568515433697</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="杨飞--提取码完成">
+      <created>1568550001183</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1568550001183</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -198,6 +126,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="默认的" />
-    <option name="LAST_COMMIT_MESSAGE" value="默认的" />
+    <MESSAGE value="杨飞--提取码完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="杨飞--提取码完成" />
   </component>
 </project>
