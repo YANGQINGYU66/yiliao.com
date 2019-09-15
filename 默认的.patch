@@ -1,0 +1,113 @@
+Index: application/index/controller/User.php
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- application/index/controller/User.php	(date 1568514478554)
++++ application/index/controller/User.php	(date 1568514478554)
+@@ -0,0 +1,90 @@
++<?php
++
++namespace app\index\controller;
++
++use think\Controller;
++use think\Request;
++
++class User extends Controller
++{
++    /**
++     * 显示资源列表
++     *
++     * @return \think\Response
++     */
++    public function index()
++    {
++        //
++    }
++
++    public function show()
++    {
++        return '1245';
++    }
++
++    /**
++     * 显示创建资源表单页.
++     *
++     * @return \think\Response
++     */
++    public function create()
++    {
++        //
++    }
++
++    /**
++     * 保存新建的资源
++     *
++     * @param  \think\Request  $request
++     * @return \think\Response
++     */
++    public function save(Request $request)
++    {
++        //
++    }
++
++    /**
++     * 显示指定的资源
++     *
++     * @param  int  $id
++     * @return \think\Response
++     */
++    public function read($id)
++    {
++        //
++    }
++
++    /**
++     * 显示编辑资源表单页.
++     *
++     * @param  int  $id
++     * @return \think\Response
++     */
++    public function edit($id)
++    {
++        //
++    }
++
++    /**
++     * 保存更新的资源
++     *
++     * @param  \think\Request  $request
++     * @param  int  $id
++     * @return \think\Response
++     */
++    public function update(Request $request, $id)
++    {
++        //
++    }
++
++    /**
++     * 删除指定资源
++     *
++     * @param  int  $id
++     * @return \think\Response
++     */
++    public function delete($id)
++    {
++        //
++    }
++}
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/workspace.xml	(date 1568515380000)
++++ .idea/workspace.xml	(date 1568515401098)
+@@ -31,6 +31,7 @@
+   <component name="ProjectId" id="1QftD690dNhzXF9eoqcskdF0TQG" />
+   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+   <component name="PropertiesComponent">
++    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+     <property name="WebServerToolWindowFactoryState" value="false" />
+     <property name="last_opened_file_path" value="$PROJECT_DIR$/application/index/view/index" />

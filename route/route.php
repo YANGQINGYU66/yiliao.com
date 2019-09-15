@@ -9,14 +9,16 @@
 // | Author: liu21st <liu21st@gmail.com>
 // +----------------------------------------------------------------------
 
-//use think\Route;
-Route::get('think', function () {
-    return 'hello,ThinkPHP5!';
+Route::get('index', function () {
+    return view('../application/index/view/index/index.html');
 });
+
+Route::get('in','index/Index/index');
+
 
 Route::get('hello/:name', 'index/hello');
 
-Route::get('test','index/Index/test');
+Route::get("admin","admin/Index/index");
 return [
 
 ];
