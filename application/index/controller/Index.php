@@ -31,7 +31,7 @@ class Index extends Controller
         //字符串之间的拼接
         $data = $first.$two;
         return json([
-            'url'=>'mask.com/index',
+            'url'=>'yiliao.com/index',
             'code'=>0,
             'msg'=>'返回成功',
             'data'=>$data

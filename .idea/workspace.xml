@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="73b5d68e-4f1b-4c6f-b638-a36b0988a11c" name="默认的" comment="杨飞--提取码完成" />
+    <list default="true" id="73b5d68e-4f1b-4c6f-b638-a36b0988a11c" name="默认的" comment="杨飞--更改文件路径">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/index/controller/Index.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/index/controller/Index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/index/view/index/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/index/view/index/index.html" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,9 +35,7 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1QftD690dNhzXF9eoqcskdF0TQG" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
@@ -82,6 +84,10 @@
       <workItem from="1568173358416" duration="65000" />
       <workItem from="1568173433116" duration="56378000" />
       <workItem from="1568549421659" duration="717000" />
+      <workItem from="1568551521322" duration="81000" />
+      <workItem from="1568551997341" duration="28000" />
+      <workItem from="1568552556581" duration="1273000" />
+      <workItem from="1568597000288" duration="319000" />
     </task>
     <task id="LOCAL-00001" summary="默认的">
       <created>1568515380074</created>
@@ -104,7 +110,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568550001183</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="杨飞--更改文件路径">
+      <created>1568551576711</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1568551576711</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -127,6 +140,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="默认的" />
     <MESSAGE value="杨飞--提取码完成" />
-    <option name="LAST_COMMIT_MESSAGE" value="杨飞--提取码完成" />
+    <MESSAGE value="杨飞--更改文件路径" />
+    <option name="LAST_COMMIT_MESSAGE" value="杨飞--更改文件路径" />
   </component>
 </project>
