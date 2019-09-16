@@ -2,6 +2,7 @@
 
 namespace app\admin\controller;
 
+use app\admin\model\goods;
 use think\Controller;
 use think\Request;
 
@@ -17,8 +18,20 @@ class Index extends Controller
         //后台首页
         //view()表示访问当前模块下的view目录
         //返回view层中选中的页面，不写.html后缀
-        return view("../view/1");
+        return view("../view/index.html");
 
+    }
+
+    public function test(Request $request)
+    {
+        $data = goods::all();
+//        $data = '1111';
+        return json([
+            'url'=>'yiliao.com/test',
+            'code'=>0,
+            'msg'=>'返回成功',
+            'data'=>$data
+        ]);
     }
 
     /**

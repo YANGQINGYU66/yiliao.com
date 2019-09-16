@@ -5,19 +5,11 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>提货码首页</title>
+    <title>首页</title>
 </head>
 <body>
-<button>获取提货码</button>
-<div id="code"></div>
+<div>
+    <h2>这个是首页</h2>
+</div>
 </body>
-<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-<script type="text/javascript">
-    $('button').click('',function () {
-       // alert('a');
-       $.get("http://yiliao.com/in",function (data) {
-           document.getElementById('code').innerHTML = data.data;
-       });
-    })
-</script>
 </html>
