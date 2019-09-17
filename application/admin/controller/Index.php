@@ -3,6 +3,7 @@
 namespace app\admin\controller;
 
 use app\admin\model\goods;
+use app\admin\model\user;
 use think\Controller;
 use think\Request;
 
@@ -20,6 +21,20 @@ class Index extends Controller
         //返回view层中选中的页面，不写.html后缀
         return view("../view/index.html");
 
+    }
+
+    public function memberlist(Request $request)
+    {
+        $data = user::all();
+//        return json($this->assign('member-list1',['data'=>$data]));
+        return $this->fetch('member-list',['data' => $data]);
+    }
+
+    public function goodlist(Request $request)
+    {
+        $data = goods::all();
+//        return json($this->assign('member-list1',['data'=>$data]));
+        return $this->fetch('good-list',['data' => $data]);
     }
 
     public function test(Request $request)

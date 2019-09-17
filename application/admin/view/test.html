@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<button>获取数据</button>
+</body>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script type="text/javascript">
+    $('button').click('',function () {
+        //console.log('123');
+        $.get("http://yiliao.com/test1",function (data) {
+            console.log(data.data[0]);
+        });
+    })
+</script>
+</html>

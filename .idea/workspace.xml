@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="73b5d68e-4f1b-4c6f-b638-a36b0988a11c" name="默认的" comment="杨飞--更改文件路径，改用Wamp">
+    <list default="true" id="73b5d68e-4f1b-4c6f-b638-a36b0988a11c" name="默认的" comment="杨飞--数据库链接，返回后台数据成功">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/application/admin/controller/Index.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/admin/controller/Index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/admin/view/1.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/admin/view/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/index/view/index/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/index/view/index/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/database.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/admin/view/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/index/controller/Index.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/index/controller/Index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/route/route.php" beforeDir="false" afterPath="$PROJECT_DIR$/route/route.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thinkphp/library/think/Request.php" beforeDir="false" afterPath="$PROJECT_DIR$/thinkphp/library/think/Request.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,7 +44,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/application/admin/view" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/application/admin/view/index" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -52,10 +52,12 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\wamp64\www\yiliao.com\application\admin\view\index" />
       <recent name="E:\wamp64\www\yiliao.com\application\admin\view" />
       <recent name="E:\phpstudy_pro\WWW\mask.com\application\index\view\index" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\wamp64\www\yiliao.com\application\admin\view\index" />
       <recent name="E:\phpstudy_pro\WWW\mask.com\application\index\view" />
       <recent name="E:\phpstudy_pro\WWW\mask.com\application\index\view\user" />
       <recent name="E:\phpstudy_pro\WWW\mask.com\application\index\view\index" />
@@ -93,7 +95,9 @@
       <workItem from="1568552556581" duration="1273000" />
       <workItem from="1568597000288" duration="12044000" />
       <workItem from="1568620739450" duration="5694000" />
-      <workItem from="1568628824947" duration="6621000" />
+      <workItem from="1568628824947" duration="34413000" />
+      <workItem from="1568715695932" duration="9000" />
+      <workItem from="1568715737337" duration="6175000" />
     </task>
     <task id="LOCAL-00001" summary="默认的">
       <created>1568515380074</created>
@@ -130,7 +134,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568597422938</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="杨飞--数据库链接，返回后台数据成功">
+      <created>1568635500425</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1568635500425</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -155,6 +166,7 @@
     <MESSAGE value="杨飞--提取码完成" />
     <MESSAGE value="杨飞--更改文件路径" />
     <MESSAGE value="杨飞--更改文件路径，改用Wamp" />
-    <option name="LAST_COMMIT_MESSAGE" value="杨飞--更改文件路径，改用Wamp" />
+    <MESSAGE value="杨飞--数据库链接，返回后台数据成功" />
+    <option name="LAST_COMMIT_MESSAGE" value="杨飞--数据库链接，返回后台数据成功" />
   </component>
 </project>
