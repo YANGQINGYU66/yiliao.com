@@ -14,10 +14,36 @@
 <script type="text/javascript">
     $('button').click('',function () {
         alert('微信登录');
-
-        // $.get("http://yiliao.com/in",function (data) {
-        //
-        // });
+        // login: function(e) {
+        //     var that = this;
+        //     wx.login({
+        //         success: function(res){
+        //             var code = res.code; //获取code
+        //             wx.getUserInfo({ //得到rawData, signatrue, encryptData
+        //                 success: function(data){
+        //                     var rawData = data.rawData;
+        //                     var signature = data.signature;
+        //                     var encryptedData = data.encryptedData;
+        //                     var iv = data.iv;
+        //                     wx.request({
+        //                         url: '你自己的后台地址',
+        //                         data: {
+        //                             "code" : code,
+        //                             "rawData" : rawData,
+        //                             "signature" : signature,
+        //                             'iv' : iv,
+        //                             'encryptedData': encryptedData
+        //                         },
+        //                         method: 'GET',
+        //                         success: function(info){
+        //                             console.log(info);
+        //                         }
+        //                     })
+        //                 }
+        //             })
+        //         },
+        //     })
+        // }
     })
 </script>
 </html>

@@ -9,7 +9,10 @@
 </head>
 <body>
 <div>
-    <h2>这个是首页</h2>
+    {foreach name="data" item = "value"}
+    <h3>{$value.name}</h3>
+    <h4>￥{$value.price}</h4>
+    {/foreach}
 </div>
 </body>
 </html>
