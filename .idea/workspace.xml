@@ -1,16 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="73b5d68e-4f1b-4c6f-b638-a36b0988a11c" name="默认的" comment="杨飞--后台接口已完成，功能待写，微信登录，支付待写">
+    <list default="true" id="73b5d68e-4f1b-4c6f-b638-a36b0988a11c" name="默认的" comment="杨飞--微信登录，支付待写">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/admin/controller/Index.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/admin/controller/Index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/admin/view/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/admin/view/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/application/admin/view/index/good-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/admin/view/index/good-list.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/application/admin/view/index/member-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/admin/view/index/member-list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/admin/view/index/order-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/admin/view/index/order-list.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/application/index/controller/Index.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/index/controller/Index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/index/view/index/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/index/view/index/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/index/view/index/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/index/view/index/login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/route/route.php" beforeDir="false" afterPath="$PROJECT_DIR$/route/route.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,6 +28,12 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
@@ -101,7 +102,7 @@
       <workItem from="1568620739450" duration="5694000" />
       <workItem from="1568628824947" duration="34413000" />
       <workItem from="1568715695932" duration="9000" />
-      <workItem from="1568715737337" duration="44138000" />
+      <workItem from="1568715737337" duration="89705000" />
     </task>
     <task id="LOCAL-00001" summary="默认的">
       <created>1568515380074</created>
@@ -152,7 +153,21 @@
       <option name="project" value="LOCAL" />
       <updated>1568722966386</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="杨飞--微信登录，支付待写">
+      <created>1568814921418</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1568814921418</updated>
+    </task>
+    <task id="LOCAL-00009" summary="杨飞--个人中心代做">
+      <created>1568899895777</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1568899895777</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -181,7 +196,9 @@
     <MESSAGE value="杨飞--更改文件路径，改用Wamp" />
     <MESSAGE value="杨飞--数据库链接，返回后台数据成功" />
     <MESSAGE value="杨飞--后台接口已完成，功能待写，微信登录，支付待写" />
-    <option name="LAST_COMMIT_MESSAGE" value="杨飞--后台接口已完成，功能待写，微信登录，支付待写" />
+    <MESSAGE value="杨飞--微信登录，支付待写" />
+    <MESSAGE value="杨飞--个人中心代做" />
+    <option name="LAST_COMMIT_MESSAGE" value="杨飞--个人中心代做" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

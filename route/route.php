@@ -63,29 +63,29 @@ Route::get('cate', function () {
 
 //前台微信登录页面
 Route::get('in', function () {
-    return view('../application/index/view/index/login.html');
+    return '1211';
 });
-//前台首页
+
+//前台首页  获取服务信息
 Route::get('index','index/Index/index');
-//Route::get('index1',function (){
-//    return view('../application/index/view/index.html');
-//});
-//商品详情
+//去购买页
 Route::get('goodInfo','index/Index/goodInfo');
 //微信支付
-Route::post('wxpay','index/Index/wxPay');
+Route::get('wxpay','index/Index/wxPay');
+//生成订单
+Route::get('order','index/Index/order');
+
 //个人权益中心
 Route::get('center','index/Index/center');
-Route::get('center1',function (){
-    return view('../application/index/view/center.html');
-});
-//权益使用
-Route::post('apply','index/Index/apply');
-Route::get('apply1',function (){
-    return view('../application/index/view/apply.html');
-});
+
+//兑换服务
+Route::get('apply','index/Index/apply');
+
 //提货码
-Route::get('tihuoma', function () {
-    return view('../application/index/view/index/tihuoma.html');
-});
 Route::get('code','index/Index/code');
+
+//验证提货码
+Route::get('check','index/Index/check');
+
+//提交个人信息
+Route::get('userInfo','index/Index/userInfo');

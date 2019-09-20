@@ -92,7 +92,44 @@ class Index extends Controller
 
     }
 
-    // 获取我的权益表     todo
+    //生成订单表
+    public function order(Request $request)
+    {
+        if($request->isPost()){
+            $data = $request->param();
+            if(empty($data)){
+                return json([
+                    'code'=>1,
+                    'msg'=>'信息不能为空'
+                ]);
+                $userId = $data[0]['userId'];
+                $payWay = $data[0]['payWay'];
+                $buyType = $data[0]['buyType'];
+                $serviceId = $data[0]['serviceId'];
+                $orderId =
+                $res = Db::table('order')->insert([
+                    'userId'=>$userId,
+                    'payWay'=>$payWay,
+                    'serviceId'=>$serviceId
+                ]);
+                $re = Db::table('center')->insert(['type'=>$buyType]);
+                if($re == true && $res == true){
+                    return json([
+                       'code'=>0,
+                       'msg'=>'成功',
+                        'orderId'=>$orderId
+                    ]);
+                }else{
+                    return json([
+                        'code'=>1,
+                        'msg'=>'失败',
+                    ]);
+                }
+            }
+        }
+    }
+
+    // 获取我的权益表     todo ok
     public function center(Request $request)
     {
         if($request->isPost()){
@@ -117,14 +154,13 @@ class Index extends Controller
             }else{
                 $res = '订单信息为空';
             }
-
-            $type = $request->param();
+//            $type = $request->param();
 //            我的服务
-            if(type == 0){
-
-            }else{                              //为他人购买
-
-            }
+//            if(type == 0){
+//
+//            }else{                              //为他人购买
+//
+//            }
             if(isset($res)){
                 return $res;
             }else {
@@ -149,7 +185,8 @@ class Index extends Controller
                     ]
                 ];
             }
-           return json($return_res['data']);
+           $res = json($return_res['data']);
+            return $res;
         }
     }
 
@@ -208,7 +245,7 @@ class Index extends Controller
                 $str = implode('',array_slice($str,0,$length));
                 return $str;
             }
-            $two = createRandomStr2(6);
+            $two = createRandomStr2(4);
             //字符串之间的拼接
             $code = $first.$two;
             //todo 存入数据库
